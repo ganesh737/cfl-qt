@@ -1,0 +1,27 @@
+#ifndef WIDGET_H
+#define WIDGET_H
+
+#include <QObject>
+#include <QTest>
+#include <QDebug>
+
+class Widget : public QObject
+{
+    Q_OBJECT
+public:
+    explicit Widget(QObject *parent = nullptr);
+
+    void setAge(int value);
+
+signals:
+
+private slots:
+    void testFail();
+    void testAge();
+    void testWidget();
+
+private:
+    int age;
+};
+
+#endif // WIDGET_H
