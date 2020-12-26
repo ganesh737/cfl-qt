@@ -1,2 +1,4 @@
-# qt5udemy
-Code from qt5 courses by Bryan Cairns on Udemy
+# Code for Learning Qt
+
+Contains code from Qt5 courses by Bryan Cairns on Udemy
+
